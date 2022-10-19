@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ConnectWifiXamarin.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="White">
+
+    <StackLayout Margin="20" VerticalOptions="Center">
+        <Entry
+            x:Name="ssid"
+            Text="cs220-3d212d"
+            TextColor="Black" />
+        <Entry
+            x:Name="password"
+            Text="N2I0YmNi"
+            TextColor="Black" />
+        <Button Clicked="Button_Clicked" Text="Connect" />
+        <Button Clicked="Button_Clicked_1" Text="Suggest" />
+    </StackLayout>
+
+</ContentPage>
